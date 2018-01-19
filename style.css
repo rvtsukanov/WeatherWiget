@@ -1,0 +1,58 @@
+#block{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+  background-color: gainsboro;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.focused{
+  background-image: url('gif.gif')
+
+}
+
+
+
+#temp p{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  color: #4682B4;
+  position: relative;
+  text-align: center;
+  margin-top: 0%;
+  font-size: 200px;
+  font-family: 'Fredoka One', cursive;
+}
+
+#city p{
+  color: #4682B4;
+  position: relative;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-size: 70px;
+  /*font-family: 'Cinzel', serif;*/
+  font-family: 'Fredoka One', cursive;
+}
+
+#temp{
+}
+
+#city{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0px;
+}
+
+body{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
